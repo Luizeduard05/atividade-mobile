@@ -1,6 +1,5 @@
 import { createNativeStackNavigator } from "@react-navigation/native-stack";
 
-import Home from '../pages/Inicio'
 import Detalhes from '../pages/Detalhes'
 import Cursos from "../pages/Cursos";
 
@@ -17,7 +16,6 @@ export default function stackRoutes(){
             <Stack.Screen
             name='Detalhes'
             component={Detalhes}/>
-
 
         </Stack.Navigator>
     )

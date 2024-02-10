@@ -1,12 +1,10 @@
 
-import { StyleSheet, Text, View } from 'react-native';
+import { StyleSheet } from 'react-native';
 import { createBottomTabNavigator } from '@react-navigation/bottom-tabs';
 import FontAwesome from 'react-native-vector-icons/FontAwesome'
 
 import Inicio from '../pages/Inicio';
 import Contato from '../pages/Contato';
-import Cursos from '../pages/Cursos';
-import Detalhes from '../pages/Detalhes';
 import StackRoutes from './stackRoutes';
 
 const Tab = createBottomTabNavigator();

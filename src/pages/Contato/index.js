@@ -16,8 +16,6 @@ export default function Contato() {
 
             <Button title='Entrar' onPress={() => Alert.alert('Login Verificado!!!')}/>
 
-
-
         </SafeAreaView>
     )
 }
